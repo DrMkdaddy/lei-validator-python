@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lei-validator-client"
+version = "1.0.0"
+description = "Official zero-dependency Python client for Global LEI & Corporate Tax ID Validator API via RapidAPI"
+readme = "README.md"
+authors = [{ name = "Noor Mkdad" }]
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+keywords = ["lei","iso-17442","gleif","corporate-tax-id","ein-validator","abn","crn","kyc-compliance","tax-id"]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://noormkdad.com/tools/lei-validator"
+"Documentation" = "https://noormkdad.com/tools/lei-validator"
+"Marketplace" = "https://rapidapi.com/noor-mkdad-apis-noor-mkdad-apis-default/api/global-lei-corporate-tax-id-validator-api"
+"Source" = "https://github.com/DrMkdaddy/lei-validator-python"
